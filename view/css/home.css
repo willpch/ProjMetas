@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.815);
+}
+
+.container-inp-add {
+  max-width: 480px;
+  margin-top: 100px;
+  margin-left: 40%;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.enviar {
+  margin-bottom: 4px;
+  height: auto;
+}
+
+
+.sidebar{
+  border: 10%;
+}
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #325372;
+  color: #ffffff;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+h3{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 15px;
+    
+}
+
+.meta{text-align: center; font-family: 'Poppins', sans-serif;}
+
+.a-menu{
+  font-size: 17px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #ffff00;
+}
+
+.containerCards{
+  margin-top: 10%;
+  margin-left: 25%;
+  
+}
+
+#card{
+  margin-left: 4%;
+}
+
+

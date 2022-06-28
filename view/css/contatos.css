@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+.container-contact{
+    margin-left: 25%;
+    color: #ffffff;
+    max-width: 70%;
+}
+
+h2{
+    text-align: center;
+}
+  
+.btnContatos{
+    margin: 2rem;
+}
+
+.sidebar{
+    border: 10%;
+}
+ 
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #325372;
+    color: #ffffff;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+h3{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 15px;   
+}
+
+.meta{text-align: center; font-family: 'Poppins', sans-serif;} 
+
+.a-menu{
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff00;
+}
+
+h5{
+    text-align: center;
+}
+
+.divTabela{
+    margin-top: 3em;
+    max-width: 50%;
+    margin-left: 22%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+.divTabela H4{
+    color: black;
+}
+
+.formAdd{
+    margin-top: 3em;
+    max-width: 50%;
+    margin-left: 22%;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    /* padding: 1rem; */
+}
+
+.formPost{
+    padding: 1rem;
+    margin-top: 5rem;
+    max-width: 50%;
+    margin-left: 22%;
+}
+
+  /* .container-custom {
+    max-width: 600px;
+    margin-left: 35%;
+  } */
